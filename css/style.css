@@ -1,6 +1,11 @@
+body {
+  height: 100vh;
+}
+
 #bg-images {
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #weather {

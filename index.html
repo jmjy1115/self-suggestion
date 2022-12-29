@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <title>Chrome App</title>
+</head>
+<body id="bg-images">
+  <div id="weather">
+    <span></span>
+    <span></span>
+  </div>
+  <h2 id="clock">00:00</h2>
+  <form class="hidden" id="login-form">
+    <input
+      type="text"
+      placeholder="이름을 입력해주세요."
+      required
+      maxlength="10"
+      size="15"
+    />
+  </form>
+  <div class="hidden" id="greeting"></div>
+  <div id="selfSuggestions">
+    <span></span>
+  </div>
+  <form id="todo-form">
+    <input
+      type="text"
+      placeholder="추가하고 싶은 자기암시 문장을 입력해주세요."
+      required
+      size="30" 
+    />
+  </form>
+  <ul id="todo-list"></ul>
+  <script src="js/greeting.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/selfsuggestions.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+</html>
